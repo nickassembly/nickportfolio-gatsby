@@ -1,5 +1,6 @@
 import React from "react"
 import "../scss/main.scss"
+import "../css/main.css"
 
 const IndexPage = () => {
   return (
