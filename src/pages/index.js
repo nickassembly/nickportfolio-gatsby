@@ -1,10 +1,11 @@
 import React from "react"
+import Layout from "../components/layout"
 import "../scss/main.scss"
 import "../css/main.css"
 
 const IndexPage = () => {
   return (
-    <div>
+    <Layout>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
@@ -35,7 +36,7 @@ const IndexPage = () => {
         </main>
         <script src="../js/main.js"></script>
       </body>
-    </div>
+    </Layout>
   )
 }
 

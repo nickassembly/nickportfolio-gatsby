@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/layout"
 
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <main id="about">
         <h1 className="lg-heading">
           About <span className="text-secondary"> Me</span>
@@ -56,7 +57,7 @@ const AboutPage = () => {
 
       <footer id="main-footer">Copyright &copy; 2019</footer>
       <script src="js/main.js"></script>
-    </div>
+    </Layout>
   )
 }
 

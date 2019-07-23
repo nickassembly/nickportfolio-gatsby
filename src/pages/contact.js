@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <div>
+    <Layout>
       <main id="contact">
         <h1 className="lg-heading">
           Contact <span className="text-secondary"> Me</span>
@@ -26,7 +27,7 @@ const ContactPage = () => {
 
       <footer id="main-footer">Copyright &copy; 2019</footer>
       <script src="js/main.js"></script>
-    </div>
+    </Layout>
   )
 }
 

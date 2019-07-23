@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/layout"
 
 const WorkPage = () => {
   return (
-    <div>
+    <Layout>
       <main id="work">
         <h1 className="lg-heading">
           My <span className="text-secondary"> Work</span>
@@ -73,7 +74,7 @@ const WorkPage = () => {
         </div>
       </main>
       <footer id="main-footer">Copyright &copy; 2019</footer>
-    </div>
+    </Layout>
   )
 }
 
