@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import "../js/main.js"
 
 const AboutPage = () => {
   return (
@@ -54,8 +55,6 @@ const AboutPage = () => {
           </div>
         </div>
       </main>
-
-      <footer id="main-footer">Copyright &copy; 2019</footer>
       <script src="js/main.js"></script>
     </Layout>
   )

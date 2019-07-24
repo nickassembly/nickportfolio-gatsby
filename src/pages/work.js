@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import "../js/main.js"
 
 const WorkPage = () => {
   return (
@@ -73,7 +74,6 @@ const WorkPage = () => {
           <script src="js/main.js"></script>
         </div>
       </main>
-      <footer id="main-footer">Copyright &copy; 2019</footer>
     </Layout>
   )
 }

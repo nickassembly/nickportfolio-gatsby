@@ -1,3 +1,5 @@
+import "../scss/main.scss"
+
 // Select DOM Items
 const menuBtn = document.querySelector(".menu-btn")
 const menu = document.querySelector(".menu")
@@ -8,7 +10,8 @@ const navItems = document.querySelectorAll(".nav-item")
 // Set Initial State of Menu
 let showMenu = false
 
-menuBtn.addEventListener("click", toggleMenu)
+//cannot read addeventListener of null
+//menuBtn.addEventListener("click", toggleMenu)
 
 function toggleMenu() {
   if (!showMenu) {
