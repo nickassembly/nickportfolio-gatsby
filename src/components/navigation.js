@@ -1,6 +1,5 @@
 import React from "react"
 import "../scss/main.scss"
-import "../js/main.js"
 
 const Navigation = () => {
   return (
@@ -39,7 +38,6 @@ const Navigation = () => {
           </ul>
         </nav>
       </header>
-      <script src="js/main.js"></script>
     </div>
   )
 }

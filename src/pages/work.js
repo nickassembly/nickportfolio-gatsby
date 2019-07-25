@@ -71,9 +71,9 @@ const WorkPage = () => {
               <i className="fab fa-github"></i>Github{" "}
             </a>
           </div>
-          <script src="js/main.js"></script>
         </div>
       </main>
+      <script src="js/main.js"></script>
     </Layout>
   )
 }

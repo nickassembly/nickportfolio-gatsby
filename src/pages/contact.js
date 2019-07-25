@@ -25,7 +25,6 @@ const ContactPage = () => {
           </div>
         </div>
       </main>
-
       <script src="js/main.js"></script>
     </Layout>
   )

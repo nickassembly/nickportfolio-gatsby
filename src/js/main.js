@@ -1,5 +1,3 @@
-import "../scss/main.scss"
-
 // Select DOM Items
 const menuBtn = document.querySelector(".menu-btn")
 const menu = document.querySelector(".menu")
@@ -10,8 +8,9 @@ const navItems = document.querySelectorAll(".nav-item")
 // Set Initial State of Menu
 let showMenu = false
 
-//cannot read addeventListener of null
-//menuBtn.addEventListener("click", toggleMenu)
+if (menuBtn) {
+  menuBtn.addEventListener("click", toggleMenu)
+}
 
 function toggleMenu() {
   if (!showMenu) {
@@ -23,14 +22,15 @@ function toggleMenu() {
 
     // Set Menu State
     showMenu = true
-  } else {
-    menuBtn.classList.remove("close")
-    menu.classList.remove("show")
-    menuNav.classList.remove("show")
-    menuBranding.classList.remove("show")
-    navItems.forEach(item => item.classList.remove("show"))
-
-    // Set Menu State
-    showMenu = false
+    return
   }
+
+  menuBtn.classList.remove("close")
+  menu.classList.remove("show")
+  menuNav.classList.remove("show")
+  menuBranding.classList.remove("show")
+  navItems.forEach(item => item.classList.remove("show"))
+
+  // Set Menu State
+  showMenu = false
 }
