@@ -11,7 +11,7 @@ const IndexPage = () => {
         integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
         crossOrigin="anonymous"
       />
-      <body id="bg-img">
+      <div id="bg-img">
         <main id="home">
           <h1 className="lg-heading">
             Nick <span className="text-secondary"> Guerra</span>
@@ -32,8 +32,7 @@ const IndexPage = () => {
             </a>
           </div>
         </main>
-      </body>
-      <script src="js/main.js"></script>
+      </div>
     </Layout>
   )
 }

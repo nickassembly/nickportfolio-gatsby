@@ -1,39 +1,40 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../scss/main.scss"
 
 const Navigation = () => {
   return (
     <div>
       <header>
-        <div class="menu-btn">
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
+        <div className="menu-btn">
+          <div className="btn-line"></div>
+          <div className="btn-line"></div>
+          <div className="btn-line"></div>
         </div>
-        <nav class="menu">
-          <div class="menu-branding">
-            <div class="portrait"></div>
+        <nav className="menu">
+          <div className="menu-branding">
+            <div className="portrait"></div>
           </div>
-          <ul class="menu-nav">
-            <li class="nav-item current">
-              <a href="/" class="nav-link">
+          <ul className="menu-nav">
+            <li className="nav-item current">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a href="/about" class="nav-link">
+            <li className="nav-item">
+              <Link to="/about" className="nav-link">
                 About Me
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a href="/work" class="nav-link">
+            <li className="nav-item">
+              <Link to="/work" className="nav-link">
                 Portfolio
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a href="/contact" class="nav-link">
+            <li className="nav-item">
+              <Link to="/contact" className="nav-link">
                 Contact Me
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

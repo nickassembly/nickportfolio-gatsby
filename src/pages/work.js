@@ -73,7 +73,6 @@ const WorkPage = () => {
           </div>
         </div>
       </main>
-      <script src="js/main.js"></script>
     </Layout>
   )
 }
