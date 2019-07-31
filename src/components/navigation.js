@@ -8,6 +8,10 @@ class Navigation extends React.Component {
     this.toggleMenu = this.toggleMenu.bind(this)
   }
 
+  state = {
+    open: false,
+  }
+
   toggleMenu = () => {
     const menuBtn = document.querySelector(".menu-btn")
     const menu = document.querySelector(".menu")
@@ -15,25 +19,25 @@ class Navigation extends React.Component {
     const menuBranding = document.querySelector(".menu-branding")
     const navItems = document.querySelectorAll(".nav-item")
 
-    let showMenu = false
+    //let showMenu = false
 
-    if (!showMenu) {
+    if (!this.state.open) {
       menuBtn.classList.add("close")
       menu.classList.add("show")
       menuNav.classList.add("show")
       menuBranding.classList.add("show")
       navItems.forEach(item => item.classList.add("show"))
+    } else {
+      menuBtn.classList.remove("close")
+      menu.classList.remove("show")
+      menuNav.classList.remove("show")
+      menuBranding.classList.remove("show")
+      navItems.forEach(item => item.classList.remove("show"))
     }
-    //  else {
-    //   menuBtn.classList.remove("close")
-    //   menu.classList.remove("show")
-    //   menuNav.classList.remove("show")
-    //   menuBranding.classList.remove("show")
-    //   navItems.forEach(item => item.classList.remove("show"))
-    // }
 
     // Set Menu State
-    showMenu = true
+    // showMenu = true
+    this.setState({ open: true })
   }
 
   render() {
