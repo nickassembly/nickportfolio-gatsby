@@ -1,8 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import "../scss/main.scss"
 
 class IndexPage extends React.Component {
   render() {
+    var backgroundStyle = {
+      opacity: 0.9,
+    }
+
     return (
       <Layout>
         <link
@@ -11,7 +16,7 @@ class IndexPage extends React.Component {
           integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
           crossOrigin="anonymous"
         />
-        <div id="bg-img">
+        <body id="bg-img" style={backgroundStyle}>
           <main id="home">
             <h1 className="lg-heading">
               Nick <span className="text-secondary"> Guerra</span>
@@ -32,7 +37,7 @@ class IndexPage extends React.Component {
               </a>
             </div>
           </main>
-        </div>
+        </body>
       </Layout>
     )
   }

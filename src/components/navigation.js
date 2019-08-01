@@ -13,15 +13,15 @@ class Navigation extends React.Component {
   }
 
   toggleMenu = () => {
+    this.state.open = !this.state.open
+
     const menuBtn = document.querySelector(".menu-btn")
     const menu = document.querySelector(".menu")
     const menuNav = document.querySelector(".menu-nav")
     const menuBranding = document.querySelector(".menu-branding")
     const navItems = document.querySelectorAll(".nav-item")
 
-    //let showMenu = false
-
-    if (!this.state.open) {
+    if (this.state.open) {
       menuBtn.classList.add("close")
       menu.classList.add("show")
       menuNav.classList.add("show")
@@ -34,10 +34,6 @@ class Navigation extends React.Component {
       menuBranding.classList.remove("show")
       navItems.forEach(item => item.classList.remove("show"))
     }
-
-    // Set Menu State
-    // showMenu = true
-    this.setState({ open: true })
   }
 
   render() {
@@ -54,7 +50,7 @@ class Navigation extends React.Component {
               <div className="portrait"></div>
             </div>
             <ul className="menu-nav">
-              <li className="nav-item current">
+              <li className="nav-item">
                 <Link to="/" className="nav-link">
                   Home
                 </Link>

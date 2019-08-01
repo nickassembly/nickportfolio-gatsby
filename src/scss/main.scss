@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
+// need to fix darken on body image
 body {
-  // @include background; temp removed need to darken background
+  @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
