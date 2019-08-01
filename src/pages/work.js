@@ -14,7 +14,7 @@ class WorkPage extends React.Component {
           <div className="projects">
             <div className="item">
               <a href="#!">
-                <img src="img/projects/project1.jpg" alt="Project" />
+                <img src="src/img/projects/project1.jpg" alt="Project" />
               </a>
               <a href="#" className="btn-light">
                 <i className="fas fa-eye"></i>Project{" "}
@@ -26,7 +26,7 @@ class WorkPage extends React.Component {
 
             <div className="item">
               <a href="#!">
-                <img src="img/projects/project2.jpg" alt="Projects" />
+                <img src="../img/projects/project1.jpg" alt="Projects" />
               </a>
               <a href="#" className="btn-light">
                 <i className="fas fa-eye"></i>Project{" "}
