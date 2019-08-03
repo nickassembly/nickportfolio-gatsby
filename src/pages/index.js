@@ -24,16 +24,16 @@ class IndexPage extends React.Component {
             </h1>
             <h2 className="sm-heading">Software Developer</h2>
             <div className="icons">
-              <a href="#">
+              <a href="https://twitter.com/nickassembly">
                 <i className="fab fa-twitter fa-2x"></i>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100009286184023">
                 <i className="fab fa-facebook fa-2x"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/nick-guerra-9ba557144/">
                 <i className="fab fa-linkedin fa-2x"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/nickassembly">
                 <i className="fab fa-github fa-2x"></i>
               </a>
             </div>

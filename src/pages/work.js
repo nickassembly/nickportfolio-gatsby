@@ -21,10 +21,10 @@ class WorkPage extends React.Component {
 
           <div className="projects">
             <div className="item">
-              <a href="#!">
+              <a href="https://github.com/nickassembly/ShoppingList">
                 <img src={project1Pic} alt="Project" />
               </a>
-              <a href="#" className="btn-light">
+              <a href="https://github.com/nickassembly/ShoppingList" className="btn-light">
                 <i className="fas fa-eye"></i>Shopping List
               </a>
               <a href="https://github.com/nickassembly/ShoppingList" className="btn-dark">
@@ -33,10 +33,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="#!">
+              <a href="https://github.com/nickassembly/LeitnerProject">
                 <img src={project2Pic} alt="Projects" />
               </a>
-              <a href="#" className="btn-light">
+              <a href="https://github.com/nickassembly/LeitnerProject" className="btn-light">
                 <i className="fas fa-eye"></i>Leitner Quiz App
               </a>
               <a href="https://github.com/nickassembly/LeitnerProject" className="btn-dark">
@@ -45,10 +45,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="#!">
+              <a href="https://github.com/nickassembly/audiobooks">
                 <img src={project3Pic} alt="Projects" />
               </a>
-              <a href="#" className="btn-light">
+              <a href="https://github.com/nickassembly/audiobooks" className="btn-light">
                 <i className="fas fa-eye"></i>Audiobook Tracker
               </a>
               <a href="https://github.com/nickassembly/audiobooks" className="btn-dark">
@@ -57,10 +57,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="#!">
+              <a href="https://github.com/nickassembly/Audiobooks.API">
                 <img src={project4Pic} alt="Projects" />
               </a>
-              <a href="#" className="btn-light">
+              <a href="https://github.com/nickassembly/Audiobooks.API" className="btn-light">
                 <i className="fas fa-eye"></i>Audiobooks API
               </a>
               <a href="https://github.com/nickassembly/Audiobooks.API" className="btn-dark">
@@ -69,10 +69,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="#!">
+              <a href="https://github.com/nickassembly/Weather">
                 <img src={project5Pic} alt="Projects" />
               </a>
-              <a href="#" className="btn-light">
+              <a href="https://github.com/nickassembly/Weather" className="btn-light">
                 <i className="fas fa-eye"></i>Current Weather
               </a>
               <a href="https://github.com/nickassembly/Weather" className="btn-dark">
