@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-react-helmet"],
+  siteMetadata: {
+    title: 'Portfolio',
+    author: 'Nick Guerra'
+  },
+
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet"
+  ]
 }

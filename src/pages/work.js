@@ -10,6 +10,7 @@ import project5Pic from "../img/projects/project5.jpg"
 
 class WorkPage extends React.Component {
   render() {
+    // TODO: Add project links where projects can be hosted.
     return (
       <Layout>
         <main id="work">
@@ -24,9 +25,9 @@ class WorkPage extends React.Component {
                 <img src={project1Pic} alt="Project" />
               </a>
               <a href="#" className="btn-light">
-                <i className="fas fa-eye"></i>Project
+                <i className="fas fa-eye"></i>Shopping List
               </a>
-              <a href="#" className="btn-dark">
+              <a href="https://github.com/nickassembly/ShoppingList" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
@@ -36,9 +37,9 @@ class WorkPage extends React.Component {
                 <img src={project2Pic} alt="Projects" />
               </a>
               <a href="#" className="btn-light">
-                <i className="fas fa-eye"></i>Project
+                <i className="fas fa-eye"></i>Leitner Quiz App
               </a>
-              <a href="#" className="btn-dark">
+              <a href="https://github.com/nickassembly/LeitnerProject" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
@@ -48,9 +49,9 @@ class WorkPage extends React.Component {
                 <img src={project3Pic} alt="Projects" />
               </a>
               <a href="#" className="btn-light">
-                <i className="fas fa-eye"></i>Project
+                <i className="fas fa-eye"></i>Audiobook Tracker
               </a>
-              <a href="#" className="btn-dark">
+              <a href="https://github.com/nickassembly/audiobooks" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
@@ -60,9 +61,9 @@ class WorkPage extends React.Component {
                 <img src={project4Pic} alt="Projects" />
               </a>
               <a href="#" className="btn-light">
-                <i className="fas fa-eye"></i>Project
+                <i className="fas fa-eye"></i>Audiobooks API
               </a>
-              <a href="#" className="btn-dark">
+              <a href="https://github.com/nickassembly/Audiobooks.API" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
@@ -72,9 +73,9 @@ class WorkPage extends React.Component {
                 <img src={project5Pic} alt="Projects" />
               </a>
               <a href="#" className="btn-light">
-                <i className="fas fa-eye"></i>Project
+                <i className="fas fa-eye"></i>Current Weather
               </a>
-              <a href="#" className="btn-dark">
+              <a href="https://github.com/nickassembly/Weather" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
