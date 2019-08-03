@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import "../scss/main.scss"
 
+// TODO: warning for not using setState() below
+
 class Navigation extends React.Component {
   constructor(props) {
     super(props)
