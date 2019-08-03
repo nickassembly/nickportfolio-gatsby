@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-// need to fix darken on body image
 body {
   @include background;
   background: $primary-color;
@@ -88,6 +87,9 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    // TODO: width and height not ideal for this pic, need to edit. 
+    width: 250px;
+    height: 250px;
   }
 
   .bio {
@@ -114,7 +116,7 @@ main {
   }
 }
 
-// Work/Projects
+// Work Projects
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
