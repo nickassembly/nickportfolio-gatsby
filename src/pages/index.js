@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import "../scss/main.scss"
 
+import Head from '../components/head'
+
 // TODO: Issue with footer getting backgroundStyle and being darkened with body portion
 
 class IndexPage extends React.Component {
@@ -11,6 +13,7 @@ class IndexPage extends React.Component {
     }
     return (
       <Layout>
+        <Head title="Home" />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"

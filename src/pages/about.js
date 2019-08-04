@@ -1,11 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import profilepic1 from "../img/profilepic1.jpg"
+
+import Head from '../components/head'
 // TODO: Need to edit pictures in GIMP 
 class AboutPage extends React.Component {
   render() {
     return (
       <Layout>
+        <Head title="About" />
         <main id="about">
           <h1 className="lg-heading">
             About <span className="text-secondary"> Me</span>

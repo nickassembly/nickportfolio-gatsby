@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 
+import Head from '../components/head'
+
 class ContactPage extends React.Component {
   render() {
     return (
       <Layout>
+        <Head title="Contact" />
         <main id="contact">
           <h1 className="lg-heading">
             Contact <span className="text-secondary"> Me</span>

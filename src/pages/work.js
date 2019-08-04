@@ -8,11 +8,14 @@ import project3Pic from "../img/projects/project3.jpg"
 import project4Pic from "../img/projects/project4.jpg"
 import project5Pic from "../img/projects/project5.jpg"
 
+import Head from '../components/head'
+
 class WorkPage extends React.Component {
   render() {
-    // TODO: Add project links where projects can be hosted.
+    // TODO: Set up project hosting on Netlify
     return (
       <Layout>
+        <Head title="Projects" />
         <main id="work">
           <h1 className="lg-heading">
             My <span className="text-secondary"> Work</span>
