@@ -9,6 +9,7 @@ import project4Pic from "../img/projects/project4.jpg"
 import project5Pic from "../img/projects/project5.jpg"
 
 import Head from '../components/head'
+import Footer from '../components/footer'
 
 class WorkPage extends React.Component {
   render() {
@@ -84,6 +85,7 @@ class WorkPage extends React.Component {
             </div>
           </div>
         </main>
+        <Footer />
       </Layout>
     )
   }

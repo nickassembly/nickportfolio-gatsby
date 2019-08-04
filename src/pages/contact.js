@@ -23,8 +23,8 @@ class ContactPage extends React.Component {
               <span className="text-secondary">Phone: </span>(225)290-2080
             </div>
             <div>
-              <span className="text-secondary">Address: </span>908 East Chuck
-              St. Gonzales, LA 70737
+              <span className="text-secondary">Address: </span>New Orleans, LA
+
             </div>
           </div>
         </main>
