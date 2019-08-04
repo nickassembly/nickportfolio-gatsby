@@ -13,7 +13,7 @@ import Footer from '../components/footer'
 
 class WorkPage extends React.Component {
   render() {
-    // TODO: Set up project hosting on Netlify
+
     return (
       <Layout>
         <Head title="Projects" />
