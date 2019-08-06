@@ -8,9 +8,7 @@ import Head from '../components/head'
 
 class IndexPage extends React.Component {
   render() {
-    var backgroundStyle = {
-      opacity: 0.9,
-    }
+
     return (
       <Layout>
         <Head title="Home" />
@@ -20,7 +18,7 @@ class IndexPage extends React.Component {
           integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
           crossOrigin="anonymous"
         />
-        <body id="bg-img" style={backgroundStyle}>
+        <body id="bg-img">
           <main id="home" >
             <h1 className="lg-heading">
               Nick <span className="text-secondary"> Guerra</span>
