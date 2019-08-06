@@ -20,12 +20,13 @@ const BlogPage = () => {
     }
   `)
 
-  console.log(data)
+  //console.log(data)
 
   return (
     <Layout>
       <Head title="Blog" />
-      <h1 className={blogStyles.heading}>The Journey</h1>
+      <h1 className={blogStyles.heading}>Facio Ergo Sum</h1>
+      <h2 className={blogStyles.subtitle}>I Create Therefore I Am</h2>
       <ol className={blogStyles.posts}>
         {
           data.allContentfulBlogPost.edges.map((edge) => {

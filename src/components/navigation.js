@@ -58,8 +58,8 @@ class Navigation extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/blog" className="nav-link">
-                  Blog
+                <Link to="/work" className="nav-link">
+                  Portfolio
                 </Link>
               </li>
               <li className="nav-item">
@@ -68,13 +68,8 @@ class Navigation extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/work" className="nav-link">
-                  Portfolio
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link">
-                  Contact Me
+                <Link to="/blog" className="nav-link">
+                  Blog
                 </Link>
               </li>
             </ul>
