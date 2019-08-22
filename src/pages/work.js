@@ -26,13 +26,13 @@ class WorkPage extends React.Component {
           <div className="projects">
 
             <div className="item">
-              <a href="https://github.com/nickassembly/audiobooks">
+              <a href="https://confident-stonebraker-3fa489.netlify.com/">
                 <img src={project1Pic} alt="Projects" />
               </a>
-              <a href="https://github.com/nickassembly/audiobooks" className="btn-light">
-                <i className="fas fa-eye"></i>Audiobook Tracker
+              <a href="https://confident-stonebraker-3fa489.netlify.com/" className="btn-light">
+                <i className="fas fa-eye"></i>People Finder
               </a>
-              <a href="https://github.com/nickassembly/audiobooks" className="btn-dark">
+              <a href="https://github.com/nickassembly/PeopleFinder" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
