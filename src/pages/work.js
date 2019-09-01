@@ -38,13 +38,13 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="https://github.com/nickassembly/ShoppingList">
+              <a href="https://wonderful-cray-405df3.netlify.com">
                 <img src={project2Pic} alt="Project" />
               </a>
-              <a href="https://github.com/nickassembly/ShoppingList" className="btn-light">
-                <i className="fas fa-eye"></i>Shopping List
+              <a href="https://wonderful-cray-405df3.netlify.com" className="btn-light">
+                <i className="fas fa-eye"></i>Pound Converter
               </a>
-              <a href="https://github.com/nickassembly/ShoppingList" className="btn-dark">
+              <a href="https://github.com/nickassembly/WeightConverter" className="btn-dark">
                 <i className="fab fa-github"></i>Github
               </a>
             </div>
