@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import "../scss/main.scss"
 import Head from '../components/head'
 
-
 // TODO: Issue with footer getting backgroundStyle and being darkened with body portion
 
 class IndexPage extends React.Component {
