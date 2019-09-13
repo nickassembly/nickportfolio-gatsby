@@ -73,6 +73,18 @@ class WorkPage extends React.Component {
               </a>
             </div>
 
+            <div className="item">
+              <a href="https://github.com/nickassembly/text2speech">
+                <img src={project4Pic} alt="Projects" />
+              </a>
+              <a href="https://github.com/nickassembly/text2speech" className="btn-light">
+                <i className="fas fa-eye"></i>Text To Speech
+              </a>
+              <a href="https://github.com/nickassembly/text2speech" className="btn-dark">
+                <i className="fab fa-github"></i>Github
+              </a>
+            </div>
+
           </div>
         </main>
         <Footer />
