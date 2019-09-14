@@ -50,10 +50,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="https://github.com/nickassembly/Weather">
+              <a href="https://keen-visvesvaraya-bfc1b9.netlify.com/">
                 <img src={project3Pic} alt="Projects" />
               </a>
-              <a href="https://github.com/nickassembly/Weather" className="btn-light">
+              <a href="https://keen-visvesvaraya-bfc1b9.netlify.com/" className="btn-light">
                 <i className="fas fa-eye"></i>Current Weather
               </a>
               <a href="https://github.com/nickassembly/Weather" className="btn-dark">
@@ -62,10 +62,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="https://github.com/nickassembly/react-website">
+              <a href="https://tender-allen-84e71b.netlify.com/">
                 <img src={project4Pic} alt="Projects" />
               </a>
-              <a href="https://github.com/nickassembly/react-website" className="btn-light">
+              <a href="https://tender-allen-84e71b.netlify.com/" className="btn-light">
                 <i className="fas fa-eye"></i>Basic React Website
               </a>
               <a href="https://github.com/nickassembly/react-website" className="btn-dark">
@@ -74,10 +74,10 @@ class WorkPage extends React.Component {
             </div>
 
             <div className="item">
-              <a href="https://github.com/nickassembly/text2speech">
+              <a href="https://condescending-rosalind-63b1e1.netlify.com/">
                 <img src={project4Pic} alt="Projects" />
               </a>
-              <a href="https://github.com/nickassembly/text2speech" className="btn-light">
+              <a href="https://condescending-rosalind-63b1e1.netlify.com/" className="btn-light">
                 <i className="fas fa-eye"></i>Text To Speech
               </a>
               <a href="https://github.com/nickassembly/text2speech" className="btn-dark">
