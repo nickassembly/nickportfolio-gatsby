@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import navMenuStyles from "./navMenu.module.scss"
 import {
     Collapse,
     Navbar,
@@ -34,15 +35,15 @@ class NavMenu extends Component {
 
     render() {
         return (
-            <div>
+            <div className={navMenuStyles}>
                 <Navbar color="light" light expand="md">
 
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
+                        <NavbarBrand>
+                            <Link to="/">Home</Link>
+                        </NavbarBrand>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <Link to="/">Home</Link>
-                            </NavItem>
                             <NavItem>
                                 <Link to="/work">Portfolio</Link>
                             </NavItem>
