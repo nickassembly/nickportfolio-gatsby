@@ -1,0 +1,45 @@
+.heading {
+    color: #e4e4e4;
+    font-size: 3rem;
+    margin-top: 2rem;
+   text-align: center;
+}
+
+.subtitle {
+    color: #e4e4e4;
+    font-size: 1 rem;
+    font-style: italic;
+   text-align: center;
+}
+
+.posts {
+    list-style-type: none;
+    margin: 0;
+    max-width: 90%;
+}
+
+.post {
+    margin: 1rem 0;
+
+    a {
+        background: #eece1a;
+        color: #000000;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: #e4e4e4;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        color: #777777;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}

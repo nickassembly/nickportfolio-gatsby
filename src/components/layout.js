@@ -1,11 +1,13 @@
 import React from "react"
-import NavMenu from "./navMenu";
+import Navigation from "./navigation"
+
+
 
 class Layout extends React.Component {
   render() {
     return (
       <div>
-        <NavMenu />
+        <Navigation />
         <div>{this.props.children}</div>
       </div>
     )
