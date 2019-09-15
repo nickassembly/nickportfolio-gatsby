@@ -1,8 +1,6 @@
 import React from "react"
 import "../scss/main.scss"
 import { graphql, useStaticQuery } from "gatsby";
-
-//CSS Module styling
 import footerStyles from './footer.module.scss'
 
 const Footer = () => {

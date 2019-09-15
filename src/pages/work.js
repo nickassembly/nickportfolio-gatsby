@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../scss/main.scss"
-import "../css/main.css"
 import project1Pic from "../img/projects/project1.jpg"
 import project2Pic from "../img/projects/project2.jpg"
 import project3Pic from "../img/projects/project3.jpg"
