@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../scss/main.scss"
-
 // TODO: warning for not using setState() below
 
 class Navigation extends React.Component {
@@ -49,7 +48,8 @@ class Navigation extends React.Component {
           </div>
           <nav className="menu">
             <div className="menu-branding">
-              <div className="portrait"></div>
+              <div className="portrait">
+              </div>
             </div>
             <ul className="menu-nav">
               <li className="nav-item">

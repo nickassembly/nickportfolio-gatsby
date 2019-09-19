@@ -86,13 +86,22 @@
     }
 
     .portrait {
+      grid-area: bioimage;
+      margin: auto;
+      background: url("../img/profilepic1B.jpg");
+      border-radius: 50%;
+      border: $secondary-color 3px solid;
       width: 400px;
       height: 400px;
-      // TODO: Need to switch to profile1 but edit in gimp
-      background: url("../img/profilepic2.jpg");
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
     }
+
+    // .portrait {
+    //   width: 400px;
+    //   height: 400px;
+    //   background: url("../img/portrait_small.jpg");
+    //   border-radius: 50%;
+    //   border: solid 3px $secondary-color;
+    // }
   }
 
   .nav-item {

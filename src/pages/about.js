@@ -2,9 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import profilepic1 from "../img/profilepic1.jpg"
 import Head from '../components/head'
-import Footer from '../components/footer'
 
-// TODO: Need to edit pictures in GIMP 
 class AboutPage extends React.Component {
   render() {
     return (
