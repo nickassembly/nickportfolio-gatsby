@@ -2,10 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import "../scss/main.scss"
 import "../css/main.css"
-import project1Pic from "../img/projects/project1.jpg"
-import project2Pic from "../img/projects/project2.jpg"
-import project3Pic from "../img/projects/project3.jpg"
+import project1Pic from "../img/projects/peopleFinder.jpg"
+import project2Pic from "../img/projects/weightconverter.jpg"
+import project3Pic from "../img/projects/weather.jpg"
 import project4Pic from "../img/projects/project4.jpg"
+import project5Pic from "../img/projects/text2speech.jpg"
 
 
 import Head from '../components/head'
@@ -75,7 +76,7 @@ class WorkPage extends React.Component {
 
             <div className="item">
               <a href="https://condescending-rosalind-63b1e1.netlify.com/">
-                <img src={project4Pic} alt="Projects" />
+                <img src={project5Pic} alt="Projects" />
               </a>
               <a href="https://condescending-rosalind-63b1e1.netlify.com/" className="btn-light">
                 <i className="fas fa-eye"></i>Text To Speech
