@@ -48,8 +48,7 @@ class Navigation extends React.Component {
           </div>
           <nav className="menu">
             <div className="menu-branding">
-              <div className="portrait">
-              </div>
+              <div className="portrait"></div>
             </div>
             <ul className="menu-nav">
               <li className="nav-item">
