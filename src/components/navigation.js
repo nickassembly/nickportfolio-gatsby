@@ -67,11 +67,6 @@ class Navigation extends React.Component {
                   About Me
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/blog" className="nav-link">
-                  Blog
-                </Link>
-              </li>
             </ul>
           </nav>
         </header>
