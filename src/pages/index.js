@@ -1,13 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../scss/main.scss"
-import Head from '../components/head'
+import Head from "../components/head"
 
 // TODO: Issue with footer getting backgroundStyle and being darkened with body portion
 
 class IndexPage extends React.Component {
   render() {
-
     return (
       <Layout>
         <Head title="Home" />
@@ -17,8 +16,8 @@ class IndexPage extends React.Component {
           integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
           crossOrigin="anonymous"
         />
-        <body id="bg-img">
-          <main id="home" >
+        <div id="bg-img">
+          <main id="home">
             <h1 className="lg-heading">
               Nick <span className="text-secondary"> Guerra</span>
             </h1>
@@ -38,9 +37,8 @@ class IndexPage extends React.Component {
               </a>
             </div>
           </main>
-        </body>
+        </div>
       </Layout>
-
     )
   }
 }
