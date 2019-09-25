@@ -66,6 +66,11 @@ class Navigation extends React.Component {
                   About Me
                 </Link>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Resume
+                </a>
+              </li>
             </ul>
           </nav>
         </header>
