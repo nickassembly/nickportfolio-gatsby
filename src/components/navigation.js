@@ -67,7 +67,10 @@ class Navigation extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="https://clever-varahamihira-4c18aa.netlify.com/"
+                >
                   Resume
                 </a>
               </li>
